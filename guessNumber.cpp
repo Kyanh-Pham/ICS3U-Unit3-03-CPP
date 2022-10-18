@@ -23,7 +23,7 @@ int main() {
 
     // Process and Output
     if (guessedNumber == randomNumber) {
-        std::cout << "You guessed right";
+        std::cout << "You guessed right" << std::endl;
     } else {
         std::cout << "You guessed wrong, the number was " << ""
          << randomNumber << "" << std::endl;
