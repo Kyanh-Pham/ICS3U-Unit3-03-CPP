@@ -28,5 +28,6 @@ int main() {
         std::cout << "You guessed wrong, the number was " << ""
          << randomNumber << "" << std::endl;
     }
+
     std::cout << "\nDone.";
 }
